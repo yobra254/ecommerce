@@ -8,7 +8,7 @@ class IntroPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.grey[500],
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 25.0),
@@ -19,7 +19,8 @@ class IntroPage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(25.0),
                 child: Image.asset(
-                  'lib/images/logo.png',
+                  'lib/images/logo2.png',
+                  //color: Color.fromARGB(255, 154, 98, 14),
                   height: 240,
                 ),
               ),
@@ -42,7 +43,7 @@ class IntroPage extends StatelessWidget {
                 'Get Value For Your Money With Quality Headlights',
                 style: TextStyle(
                   fontSize: 16,
-                  color: Colors.grey,
+                  color: Color.fromARGB(255, 254, 250, 250),
                 ),
                 textAlign: TextAlign.center,
               ),
