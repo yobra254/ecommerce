@@ -66,7 +66,7 @@ class _ShopPageState extends State<ShopPage> {
                 ),
               ),
               Text(
-                'See all',
+                'See aall',
                 style: TextStyle(
                   color: Colors.blue,
                 ),
@@ -85,7 +85,7 @@ class _ShopPageState extends State<ShopPage> {
                   name: 'Chevy',
                   price: '3000',
                   description: 'Very Bright',
-                  imagePath: 'lib/images/logo4.png');
+                  imagePath: 'lib/images/logo2.png');
               return HeadTile(
                 headlights: headlights,
               );
